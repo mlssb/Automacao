@@ -1,0 +1,6 @@
+class PaginaLogin {
+
+    getCampoUsuario(){
+        return 
+    }
+}
