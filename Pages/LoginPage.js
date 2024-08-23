@@ -1,5 +1,5 @@
 class LoginPage {
-    
+    //metodos
     getUserNameField() {
         return cy.get('[data-test="username"]');
     }
@@ -11,7 +11,7 @@ class LoginPage {
     getLoginButton() {
         return cy.get('#login-button');
     }
-
+    //seletores
     enterUsername(username) {
         this.getUserNameField().type(username);
     }
