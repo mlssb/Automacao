@@ -10,6 +10,9 @@ describe("Login", () => {
     });
 
     it("Deve realizar login com sucesso", () => {
+
+        //Dado que usuário informou credenciais corretas, Quando acionar botão login, Então será direcionado para página de produtos
+
         const username = "standard_user"; 
         const password = "secret_sauce"; 
 
@@ -20,6 +23,9 @@ describe("Login", () => {
     });
 
     it("Credenciais incorretas, username invalido", () => {
+
+        //Dado que usuário informou usuario invalido, quando acionar botão login, então notificação será exibida
+
         const username = "standard_error"; 
         const password = "secret_sauce";
 
@@ -31,6 +37,9 @@ describe("Login", () => {
     });
 
     it("Credenciais incorretas, senha invalida", () => {
+
+             //Dado que usuário informou  senha inválida, quando acionar botão login, então notificação será exibida
+
         const username = "standard_user"; 
         const password = "senhaerrada";
 
