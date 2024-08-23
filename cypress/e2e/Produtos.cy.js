@@ -48,7 +48,7 @@ describe('Product Page Tests', () => {
         cy.get('.fa-layers-counter').should('contain','6');
     });
     
-    it.only('Deve remover um produto do carrinho', () => {
+    it('Deve remover um produto do carrinho', () => {
 
         //Dado que usuário esteja adicionando produtos ao carrinho, quando acionar botão remover, então item será excluido do carrinho, tendo sua contagem atualizada
 
